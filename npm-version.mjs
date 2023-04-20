@@ -6,7 +6,7 @@ function findNextVersion () {
 	if (!branch.length) throw `Missing branch name`;
 
 	https.get(
-		`https://registry.npmjs.org/${repo}`,
+		`https://registry.npmjs.org/@orion.ui/${repo}`,
 		{},
 		(resp) => {
 			let data = '';
