@@ -1,2 +1,2 @@
 # ci-tools
-A bunch of tools for Github Actions
+🧰 A bunch of tools for Github Actions
